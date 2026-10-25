@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+.bot_profile/
+
+# Account notes and VPN material. Never publish these.
+Pod_bot Accounts.txt
+Greyhound_Accounts.txt
+vpn/
+*.ovpn
+*.conf
+
+# Runtime logs and debug dumps
+betting_log.txt
+pod_betting_log.txt
+horse_betting_log.txt
+error_log.txt
+debug_*.html
+pod_seen_alerts.json
+cache_backups/
